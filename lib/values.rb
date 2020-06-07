@@ -15,6 +15,6 @@ def get_the_values(groceries)
  groceries.each do |key, value|
    empty_array << value
  end
- empty_array
+ empty_array.flatten
 
 end
