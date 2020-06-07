@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   empty_array = []
   groceries.each do | key, value|
-    empty_array << value
+    empty_array << key
   end
   empty_array
 
